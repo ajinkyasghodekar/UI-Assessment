@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen{
+.navbar{    
+    background-color: rgb(87, 87, 250);
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin-left:0px ;
+}
+.navbar ul a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0px 30px;
+    padding: 10px 25px;
+}
+.navbar ul div #cont{
+    margin-right: 0px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.navbar ul a:hover{
+    background-color: rgb(100, 100, 100);
+}
+.navbar ul div #home a{
+    background-color: red;
+    margin-right: 0px;
+
+}
+.navbar ul div #home a:hover{
+    background-color: rgb(100, 100, 100);
+}
+}
+
+@media screen{
+    .main{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;   
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .form{
+        background-color: rgb(190, 189, 189);
+        height: 320px;
+        width: 500px;  
+        padding-top: 15px;
+        padding-left: 30px;  
+    }
+    .form{
+        line-height: 25px;
+    }
+    .form #btn1{
+        margin-top: 25px;
+        width: 463px;
+        background-color: green;
+        border: none;
+        height: 40px;
+        color: white;
+    }
+    .form #btn1:hover{
+        background-color:  rgb(43, 128, 43);
+    }
+    form input{
+        width : 450px;
+        height: 30px;
+        padding-left: 10px;
+        outline: none;
+    }
+    form select{
+        width : 463px;
+        height: 35px;
+        padding-left: 10px;
+        outline: none;
+    }
+    .photo{
+        margin-left: 30px;
+    }
+
+    .photo h2{
+        margin-top: 30px;
+    }
+    .photo p{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .photo img{
+        width: 150px;
+        height: 150px;
+    }
+    .flipbox {
+        
+        float: left;
+        padding: 15px;
+        width: 150px;
+        height: 150px;
+        perspective: 1000px;
+      }
+      
+      .flipboxinner {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      .flipbox:hover .flipboxinner {
+        transform: rotateY(180deg);
+        width: 150px;
+        height: 150px;
+      }
+      
+      .flipboxfront, .flipboxback {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        backface-visibility: hidden;
+      }
+      
+      .flipboxfront {
+        color: black;
+        width: 150px;
+        height: 150px;
+      }
+      
+      .flipboxback {
+        background-color: rgb(87, 87, 250);
+        color: white;
+        font-size: 12px;
+        transform: rotateY(180deg);
+        width: 150px;
+        height: 150px;
+      }
+      .flipbox p i{
+          margin-right: 5px;
+      }
+      .text{
+        color: white;
+        background: rgba(66, 66, 66, 0.8);
+        position:absolute;
+        z-index: 999;
+        text-align: center;
+        width: 70%;
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        top: 66%;
+      }
+}
+@media screen{
+    .tableview{
+        margin-top: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .tableview table tr th{
+        text-align: left;
+        border-bottom: 1px rgb(206, 198, 198) solid;
+    }
+    .tableview table tr td{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px rgb(206, 198, 198) solid;
+    }
+    .tableview table{
+        margin-top: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .tableview img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+}
+@media screen{
+    .footer{
+        color: white;
+        background-color: rgb(87, 87, 87);
+    }
+    .footer h4{
+        margin-top: 15px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .footer p{
+        margin-top: 10px;
+        column-count: 3;
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+}
+
+

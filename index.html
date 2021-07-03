@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <div>
+                    <li id="cont">Contact Manager</li>
+                    <li id="home"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help</a></li>
+                <div>
+            </ul>
+        </div>
+        <div class="main">
+            <div>
+                <form class="form">
+                    <div>
+                        <label>Name <br>
+                            <input type="text" placeholder="Name"></label>
+                    </div>
+                    <div>
+                        <label>Email</label><br>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div>
+                        <label>Gender</label><br>
+                        <select>
+                            <option>--Select Gender--</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Transgender</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Phone</label><br>
+                        <input type="text" placeholder="Phone">
+                    </div>
+                    <div>
+                        <input id="btn1" type="button" value="Add Contact">
+                    </div>
+                </form>
+            </div>
+            <div class="photo">
+                <h2>Contacts (Card View)</h2>
+                <p>Hover the mouse in card to see details</p>
+                <div class="flipbox">
+                    <div class="flipboxinner">
+                        <div class="flipboxfront">
+                            <img src="images/avatar1.png">
+                            <div class="text">
+                                <h>Peter Parker</h>
+                            </div>
+                        </div>
+                        <div class="flipboxback">
+                            <h2>Peter Parker</h2>
+                            <p><i class="fas fa-envelope"></i>Peter@gmail.com</p>
+                            <p><i class="fas fa-phone"></i>547-165-3466</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flipbox">
+                    <div class="flipboxinner">
+                        <div class="flipboxfront">
+                            <img src="images/avatar2.png">
+                            <div class="text">
+                                <h>James Cameron</h>
+                            </div>
+                        </div>
+                        <div class="flipboxback">
+                            <h2>James Cameron</h2>
+                            <p><i class="fas fa-envelope"></i>James@gmail.com</p>
+                            <p><i class="fas fa-phone"></i>234-456-6790</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flipbox">
+                    <div class="flipboxinner">
+                        <div class="flipboxfront">
+                            <img src="images/avatar3.png">
+                            <div class="text">
+                                <h>Maria Hill</h>
+                            </div>
+                        </div>
+                        <div class="flipboxback">
+                            <h2>Maria Hill</h2>
+                            <p><i class="fas fa-envelope"></i>Mana@gmail.com</p>
+                            <p><i class="fas fa-phone"></i>344-124-3578</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flipbox">
+                    <div class="flipboxinner">
+                        <div class="flipboxfront">
+                            <img src="images/avatar4.jpg">
+                            <div class="text">
+                                <h>John Parry</h>
+                            </div>
+                        </div>
+                        <div class="flipboxback">
+                            <h2>John Parry</h2>
+                            <p><i class="fas fa-envelope"></i>John@gmail.com</p>
+                            <p><i class="fas fa-phone"></i>289-194-6789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tableview">
+            <h2>Contacts (Table View)</h2>
+            <table class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+                <tr>
+                    <td><img src="images/avatar1.png" alt=""></td>
+                    <td>Peter Parker</td>
+                    <td>Peter@gmail.com</td>
+                    <td>547-165-3466</td>
+                </tr>
+                <tr>
+                    <td><img src="images/avatar2.png" alt=""></td>
+                    <td>James Cameron</td>
+                    <td>James@gmail.com</td>
+                    <td>234-456-6790</td>
+                </tr>
+                <tr>
+                    <td><img src="images/avatar3.png" alt=""></td>
+                    <td>Maria Hill</td>
+                    <td>Mana@gmail.com</td>
+                    <td>344-124-3578</td>
+                </tr>
+                <tr>
+                    <td><img src="images/avatar4.jpg" alt=""></td>
+                    <td>John Parry</td>
+                    <td>John@gmail.com</td>
+                    <td>289-194-6789</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+           <h4>Copyright  ContactManager &#169; 2021</h4>
+          <div>
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, mollitia repellat! Ipsam amet labore, aliquam perspiciatis id exercitationem consequuntur sequi officia deleniti alias laudantium atque repudiandae distinctio, voluptatibus nulla vero?
+                  Delectus facere quas, sit numquam dolore reprehenderit atque ipsum consequatur maxime animi laudantium, inventore cum iste quidem at, ut fugit sed labore perspiciatis. Magni nisi in minima, enim facilis amet!
+                  Molestiae illum quae totam voluptatum possimus ad dolores vel, voluptatibus, ut vero, impedit aliquam. Quis maxime consequatur accusamus sint quaerat suscipit fugit sequi unde velit, consequuntur sapiente earum aspernatur eum.
+                  Deserunt labore porro ipsum illo at dicta veniam aut ut inventore incidunt blanditiis dolores, necessitatibus, enim explicabo voluptate nobis nulla quis animi in. Blanditiis officia eos ab, corrupti amet illum!
+                  Repellat dignissimos nemo, pariatur amet debitis modi, vitae dicta iure numquam, iusto doloremque. Quod quasi a ipsa veniam. Minima vel ex repudiandae in dolorem obcaecati aperiam, repellat saepe aut explicabo.
+              </p>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
